@@ -10,9 +10,9 @@ import java.util.List;
 
 public class Generate {
 
-    /*
-        杨辉三角
-        利用每一项都是左右对称的特点
+    /**
+     * 杨辉三角
+     * 利用每一项都是左右对称的特点
      */
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<>();

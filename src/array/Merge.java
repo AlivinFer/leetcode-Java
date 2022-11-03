@@ -6,9 +6,9 @@ package array;
  */
 
 public class Merge {
-    /*
-        合并两个有序数组
-        双指针，利用两个数组是有序的
+    /**
+     * 合并两个有序数组
+     * 双指针，利用两个数组是有序的
      */
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] res = new int[m+n];
@@ -26,6 +26,8 @@ public class Merge {
             }
             res[first + second -1] = cur;
         }
-        if (m + n >= 0) System.arraycopy(res, 0, nums1, 0, m + n);
+        if (m + n >= 0) {
+            System.arraycopy(res, 0, nums1, 0, m + n);
+        }
     }
 }

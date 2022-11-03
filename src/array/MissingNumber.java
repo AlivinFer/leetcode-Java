@@ -9,8 +9,8 @@ import java.util.Arrays;
 
 public class MissingNumber {
 
-    /*
-        丢失的数字
+    /**
+     * 丢失的数字
      */
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);

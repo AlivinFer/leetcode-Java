@@ -7,9 +7,9 @@ package array;
 
 public class RemoveDuplicates {
 
-    /*
-        升序数组，在原数组的基础上使得前k个元素不重复，并返回k
-        思想：双指针（快慢指针）
+    /**
+     *   升序数组，在原数组的基础上使得前k个元素不重复，并返回k
+     *   思想：双指针（快慢指针）
      */
     // [0,0,0,1,1,2,2,3,3,4,4,4]
     public int removeDuplicates(int[] nums) {

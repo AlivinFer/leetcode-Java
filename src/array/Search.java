@@ -7,8 +7,8 @@ package array;
 
 public class Search {
 
-    /*
-        二分查找
+    /**
+     * 二分查找
      */
     public int search(int[] nums, int target) {
         // 暴力循环

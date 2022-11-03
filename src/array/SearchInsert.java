@@ -7,9 +7,9 @@ package array;
 
 public class SearchInsert {
 
-    /*
-        搜索插入位置
-        二分查找
+    /**
+     * 搜索插入位置
+     * 二分查找
      */
     public int searchInsert(int[] nums, int target) {
         int len = nums.length;

@@ -10,9 +10,9 @@ import java.util.List;
 
 public class GetRow {
 
-    /*
-        杨辉三角 Ⅱ
-        根据杨辉三角Ⅰ（Generate）直接获取最后一项
+    /**
+     * 杨辉三角 Ⅱ
+     * 根据杨辉三角Ⅰ（Generate）直接获取最后一项
      */
     public List<Integer> getRow(int rowIndex) {
         List<List<Integer>> res = new ArrayList<>();

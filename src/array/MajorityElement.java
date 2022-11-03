@@ -18,9 +18,9 @@ public class MajorityElement {
         System.out.println(res);
     }
 
-    /*
-        找寻数组中的多数元素
-        [2,2,1,1,1,2,2]
+    /**
+     * 找寻数组中的多数元素
+     * [2,2,1,1,1,2,2]
      */
     public int majorityElement(int[] nums) {
         int len = nums.length;

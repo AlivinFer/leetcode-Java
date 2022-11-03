@@ -10,9 +10,9 @@ import java.util.HashSet;
 
 public class ContainsNearbyDuplicate {
 
-    /*
-        存在重复元素Ⅱ
-        数组内如果存在重复的元素，满足下标 abs(i-j) <= k
+    /**
+     *  存在重复元素Ⅱ
+     *  数组内如果存在重复的元素，满足下标 abs(i-j) <= k
      */
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();

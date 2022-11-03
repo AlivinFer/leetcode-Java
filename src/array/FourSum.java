@@ -11,8 +11,8 @@ import java.util.List;
 
 public class FourSum {
 
-    /*
-        排序 + 双指针
+    /**
+     *  排序 + 双指针
      */
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<>();

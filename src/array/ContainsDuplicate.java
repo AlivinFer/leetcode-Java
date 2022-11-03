@@ -9,8 +9,8 @@ import java.util.HashSet;
 
 public class ContainsDuplicate {
 
-    /*
-        存在重复元素
+    /**
+     *  存在重复元素
      */
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet<>();

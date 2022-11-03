@@ -6,8 +6,9 @@ package array;
  */
 
 public class FindLengthOfLCIS {
-
-    // 最长连续递增序列
+    /**
+     * 最长连续递增序列
+     */
     public int findLengthOfLCIS(int[] nums) {
         int max = 1;
         int len = nums.length;

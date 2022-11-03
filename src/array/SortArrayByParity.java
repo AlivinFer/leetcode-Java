@@ -7,7 +7,9 @@ package array;
 
 public class SortArrayByParity {
 
-    // 按奇偶排序数组，偶数在前，奇数在后
+    /**
+     *  按奇偶排序数组，偶数在前，奇数在后
+     */
     public int[] sortArrayByParity(int[] nums) {
         // 双指针移动交换，一次遍历完成
         // [3, 1, 2, 4]
